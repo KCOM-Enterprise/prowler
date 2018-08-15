@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./prowler >> output.txt
+./prowler -P >> output.txt
 
 echo "output.txt"
 cat output.txt
