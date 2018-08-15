@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-aws roleshell -- ./prowler >> output.txt
+./prowler >> output.txt
 
 echo "output.txt"
 cat output.txt
