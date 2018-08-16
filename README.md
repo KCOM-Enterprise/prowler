@@ -179,6 +179,7 @@ This script has been written in bash using AWS-CLI and it works in Linux and OSX
         -e                  exclude group extras
         -b                  do not print Prowler banner
         -h                  this help
+        -P                  use an emtpy profile (i.e use the resource profile associated with the service running the script)
     ```
 
 ## How to fix every FAIL
